@@ -7,5 +7,5 @@ This repository contains tk/tcl script for the generation of MARTINI force-field
 ## Usage ##
 # Submit a each files and generate the atomtype, bond, andgle and dihedral parameter #
 vmd -dispdev text -e *.tcl 
-# combine the files and generate the complete ITP file for GROMACS run ##
+# Combine the files and generate the complete ITP file for GROMACS run ##
 cat 
