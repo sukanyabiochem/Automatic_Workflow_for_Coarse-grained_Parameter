@@ -10,5 +10,5 @@ vmd -dispdev text -e *.tcl
 ## Combine the files and generate the complete ITP file for GROMACS run ##
 cat atom.itp bond.itp angle.itp dihedral.itp > martini_v3.pluronic.ff.itp
 
-<img width="2600" height="900" alt="Github" src="https://github.com/user-attachments/assets/ac15c3f9-3044-4fd3-acf7-fd724e53d9e1" />
+<img width="2000" height="300" alt="Github" src="https://github.com/user-attachments/assets/ac15c3f9-3044-4fd3-acf7-fd724e53d9e1" />
 
