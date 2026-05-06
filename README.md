@@ -1,11 +1,11 @@
 # Coarse-Grained (CG) Force Field for the PEO-PPO-PEO Pluronic in MARTINI 3 #
-This repository contains tk/tcl script for the generation of MARTINI force-field for the triblock copolymers (Pluronic) with any PEO & PPO CG beads combination. 
+This repository contains a TK/TCL script for generating the MARTINI force field for triblock copolymers (Pluronic) with any PEO & PPO CG bead combination. 
 
 ## Requirements ##
   VMD (updated version)
   
 ## Usage ##
-## Submit a each files and generate the atomtype, bond, andgle and dihedral parameter ##
+## Submit each file and generate the atomtype, bond, angle, and dihedral parameter ##
 vmd -dispdev text -e *.tcl 
 ## Combine the files and generate the complete ITP file for GROMACS run ##
 cat atom.itp bond.itp angle.itp dihedral.itp > martini_v3.pluronic.ff.itp
